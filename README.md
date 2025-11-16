@@ -1,23 +1,11 @@
-🪙 Conversor de Moedas — Alura ONE Brasil
+🪙 CONVERSOR DE MOEDAS - CHALLENGE ALURAONE
 
-Projeto desenvolvido como parte do Challenge One - Lógica de Programação da Oracle + Alura.
-O objetivo é criar um conversor capaz de transformar valores entre diferentes moedas usando Java, boas práticas de programação e organização de código.
+Projeto desenvolvido no Challenge ONE - Lógica de Programação, parceria Oracle + Alura. O objetivo é criar um conversor capaz de realizar diferentes tipos de conversão monetária utilizando Java.
 
-📌 Sobre o Projeto
 
-Este projeto implementa um conversor de moedas em Java que:
+🚀 FUNCIONALIDADES:
 
-Exibe um menu interativo ao usuário;
-
-Permite escolher entre diferentes tipos de conversão;
-
-Realiza cálculos com base em taxas de câmbio;
-
-Exibe o resultado de forma clara e formatada.
-
-📋 Funcionalidades
-
-O menu disponibiliza as seguintes opções:
+O programa exibe um menu interativo e permite converter valores entre as seguintes opções:
 
 Dólar Americano → Real Brasileiro
 
@@ -31,43 +19,26 @@ Peso Argentino → Dólar Americano
 
 Dólar Americano → Peso Argentino
 
-🧠 Lógica Utilizada
-
-Entrada de dados via Scanner
-
-Estruturas condicionais para seleção do tipo de conversão
-
-Uso de multiplicação/divisão para aplicar taxas de câmbio atualizadas manualmente
-
-Saída formatada com duas casas decimais
-
-Estrutura modular com métodos para cada conversão (opcional)
-
-🛠️ Tecnologias
-
-Java 17+
-
-IDE de preferência (Eclipse, IntelliJ, VS Code, etc.)
-
-▶️ Como Executar
-
-Instale o JDK 17 ou superior.
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio
+✔ Entrada de dados via teclado
+✔ Cálculos com base em taxas de câmbio definidas no código
+✔ Resultados formatados
+✔ Uso de estruturas condicionais para controle do fluxo
 
 
-Compile o projeto:
+🧠 LÓGICA E ESTRUTURA:
 
-javac Main.java
+Uso de Scanner para entrada de dados
 
+Uso de switch ou if/else para selecionar a conversão
 
-Execute:
+Métodos separados para cada tipo de conversão (opcional)
 
-java Main
+Taxas de câmbio configuradas no código para facilitar manutenção
 
-📄 Exemplo de Menu Usado no Projeto
+Saída formatada com String.format ou DecimalFormat
+<br>
+📄 EXEMPLO DE MENU (UTILIZADO NO PROGRAMA):
+
 String menu = """
 **************************************
 Selecione um tipo de conversão:
@@ -81,16 +52,42 @@ Selecione um tipo de conversão:
 **************************************
 """;
 
-📚 Aprendizados do Desafio
+🛠️ TECNOLOGIAS UTILIZADAS:
 
-Este desafio reforçou conceitos essenciais:
+Java 17+
 
-Estrutura básica de um programa Java
+IDE de preferência (Eclipse, IntelliJ, VS Code, NetBeans)
 
-Entrada e saída de dados
+▶️ COMO EXECUTAR O PROJETO:
 
-Condicionais e cálculos matemáticos
+Certifique-se de ter o JDK 17 ou superior instalado.
 
-Manipulação de texto e menus interativos
+Clone o repositório:
 
-Organização de código e boas práticas
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+
+Compile:
+
+javac Main.java
+
+
+Execute:
+
+java Main
+
+📚 Aprendizados
+
+Este desafio proporcionou prática com:
+
+Estruturas básicas da linguagem Java
+
+Manipulação de entradas e saídas
+
+Lógica condicional
+
+Conversões matemáticas
+
+Criação de programas interativos no console
+
+Organização e padronização de projetos
