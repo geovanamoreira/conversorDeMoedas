@@ -3,6 +3,7 @@
 Projeto desenvolvido no Challenge ONE - Lógica de Programação, parceria Oracle + Alura. O objetivo é criar um conversor capaz de realizar diferentes tipos de conversão monetária utilizando Java.
 
 **************************************
+
 🚀 FUNCIONALIDADES:
 
 O programa exibe um menu interativo e permite converter valores entre as seguintes opções:
@@ -37,11 +38,12 @@ Métodos separados para cada tipo de conversão (opcional)
 Taxas de câmbio configuradas no código para facilitar manutenção
 
 Saída formatada com String.format ou DecimalFormat
-<br>
+
+**************************************
 📄 EXEMPLO DE MENU (UTILIZADO NO PROGRAMA):
 
 String menu = """
-**************************************
+
 Selecione um tipo de conversão:
 
 1. Dólar Americano -> Real Brasileiro
@@ -50,14 +52,17 @@ Selecione um tipo de conversão:
 4. Real Brasileiro -> Peso Argentino
 5. Peso Argentino -> Dólar Americano
 6. Dólar Americano -> Peso Argentino
-**************************************
 """;
+
+**************************************
 
 🛠️ TECNOLOGIAS UTILIZADAS:
 
 Java 17+
 
 IDE de preferência (Eclipse, IntelliJ, VS Code, NetBeans)
+
+**************************************
 
 ▶️ COMO EXECUTAR O PROJETO:
 
