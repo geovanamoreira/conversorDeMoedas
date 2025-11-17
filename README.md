@@ -2,7 +2,7 @@
 
 Projeto desenvolvido no Challenge ONE - Lógica de Programação, parceria Oracle + Alura. O objetivo é criar um conversor capaz de realizar diferentes tipos de conversão monetária utilizando Java.
 
-
+**************************************
 🚀 FUNCIONALIDADES:
 
 O programa exibe um menu interativo e permite converter valores entre as seguintes opções:
@@ -24,6 +24,7 @@ Dólar Americano → Peso Argentino
 ✔ Resultados formatados
 ✔ Uso de estruturas condicionais para controle do fluxo
 
+**************************************
 
 🧠 LÓGICA E ESTRUTURA:
 
@@ -75,6 +76,8 @@ javac Main.java
 Execute:
 
 java Main
+
+**************************************
 
 📚 Aprendizados
 
