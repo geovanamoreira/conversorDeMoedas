@@ -1,4 +1,4 @@
-🪙 CONVERSOR DE MOEDAS - CHALLENGE ALURAONE
+🪙 CONVERSOR DE MOEDAS - CHALLENGE ALURA ONE
 
 Projeto desenvolvido no Challenge ONE - Lógica de Programação, parceria Oracle + Alura. O objetivo é criar um conversor capaz de realizar diferentes tipos de conversão monetária utilizando Java.
 
